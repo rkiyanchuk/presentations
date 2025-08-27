@@ -1,0 +1,35 @@
+#left {
+  text-align: left;
+  float: left;
+  width:50%;
+}
+
+#right {
+  float: right;
+  text-align: right;
+  width:50%;
+}
+
+.reveal section img {
+    background:none;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+    opacity: 0;
+    display: none;
+}
+
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+    opacity: 1;
+    display: inline;
+}
+
+#opsec {
+    position:absolute;
+    height: 350px;
+    margin-left: -380px;
+    margin-top: 100px;
+    box-shadow: none;
+}
